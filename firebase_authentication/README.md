@@ -1,16 +1,35 @@
-# firebase_authentication
+# Firebase Authentication App
 
-A new Flutter project.
+## Overview
+This Flutter project demonstrates how to implement user authentication using Firebase.
+The app allows users to register, log in, and log out using email and password credentials.
+It also maintains user authentication state and displays a profile screen after a successful login.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
+- User registration with email and password
+- User login and logout
+- Authentication state persistence
+- Firebase integration and initialization
+- Simple and responsive user interface
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tools and Technologies
+- Flutter (Dart)
+- Firebase Authentication
+- Firebase Core
+- Android Studio Emulator or physical device
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Project Structure
+lib/
+├── main.dart                # Entry point of the app
+├── firebase_options.dart    # Generated Firebase
+├── services/
+│   └── auth_service.dart    # Handles authentication
+├──Screen
+└── profile_screen.dart      # Profile screen after login
+configuration file
